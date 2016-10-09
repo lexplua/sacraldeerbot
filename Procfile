@@ -1,0 +1,1 @@
+python sacraldeerbot/main.py
