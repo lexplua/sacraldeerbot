@@ -1,1 +1,1 @@
-bot: python sacraldeerbot/main.py
+worker: python sacraldeerbot/main.py

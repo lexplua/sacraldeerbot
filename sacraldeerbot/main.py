@@ -33,8 +33,8 @@ def answer(bot, update):
         InlineQueryResultPhoto(
             id=uuid.uuid4(),
             caption=u"{} - {}".format(query, randrange(0, 10)),
-            thumb_url='https://www.dropbox.com/s/qo7cd3y71j367qa/question.jpg?dl=0',
-            photo_url='https://www.dropbox.com/s/myw2odqob1e7c9w/deer.jpg?dl=0'
+            thumb_url='http://oi65.tinypic.com/35d5kb9.jpg',
+            photo_url='http://i64.tinypic.com/e5l1so.jpg'
         )
     )
     bot.answerInlineQuery(update.inline_query.id, results, cache_time=0)
